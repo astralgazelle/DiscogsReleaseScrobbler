@@ -23,7 +23,7 @@ Discogs release scrobbler for Last.fm. You can scrobble individual tracks or the
     ```
 
 ### Optional `.bat` file:
-To run the app from a shortcut, you can create a `.bat` file in the same folder with this content (it will not show a console window):
+To run the app from a shortcut, you can create a `.bat` file in the same folder with this content:
 
 ```bat
 @echo off

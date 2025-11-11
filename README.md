@@ -27,7 +27,8 @@ To run the app from a shortcut, you can create a `.bat` file in the same folder 
 
 ```bat
 @echo off
-start "" pyw -3.G10 "%~dp0main.py"
+start "" pyw -3.10 "%~dp0main.py"
 ```
+
 
 

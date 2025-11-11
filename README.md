@@ -5,7 +5,7 @@ Discogs release scrobbler for Last.fm. You can scrobble individual tracks or the
 
 ## Instruction for Windows users (compiled release)
 1.  [Download](https://github.com/astralgazelle/DiscogsReleaseScrobbler/releases) **both** the `DiscogsReleaseScrobbler.exe` file and the `config.ini` file. Place them in the **same folder**.
-3.  Open `config.ini` with a text editor and fill in your API keys and login details.
+3.  Open `config.ini` with a text editor and fill in your [Last.fm API keys](https://www.last.fm/api/account/create), your [Discogs token](https://www.discogs.com/settings/developers) and your Last.fm login and password.
 4.  Run `DiscogsReleaseScrobbler.exe`.
 
 ---
@@ -16,8 +16,8 @@ Discogs release scrobbler for Last.fm. You can scrobble individual tracks or the
     ```bash
     py -3.10 -m pip install PySide6 mutagen discogs-client pylast
     ```
-3.  Open `config.ini` with a text editor and fill in your API keys and login details.
-4.  Run the program **without a console window** using `pyw`:
+3.  Open `config.ini` with a text editor and fill in your [Last.fm API keys](https://www.last.fm/api/account/create), your [Discogs token](https://www.discogs.com/settings/developers) and your Last.fm login and password.
+4.  Run the program with terminal:
     ```bash
     pyw -3.10 main.py
     ```
@@ -29,4 +29,5 @@ To run the app from a shortcut, you can create a `.bat` file in the same folder 
 @echo off
 start "" pyw -3.G10 "%~dp0main.py"
 ```
+
 

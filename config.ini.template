@@ -1,0 +1,8 @@
+[LASTFM_USER]
+username = 
+password = 
+
+[API_KEYS]
+discogs_app_token = 
+lastfm_app_key = 
+lastfm_app_secret = 

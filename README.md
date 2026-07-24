@@ -15,13 +15,19 @@ The program **supports scrobbling tracks shorter than 30s** by automatically rou
 ## Instruction for source files:
 1.  Install Python 3.10 (currently supported version).
 2.  Install required libraries:
+
+    Windows:
     ```bash
     py -3.10 -m pip install PySide6 mutagen discogs-client pylast
     ```
-3.  Open `config.ini.template` with a text editor and fill in your [Last.fm API keys](https://www.last.fm/api/account/create), your [Discogs token](https://www.discogs.com/settings/developers) and your Last.fm login and password. Remove "template" from the filename.
-4.  Run the program with terminal:
+    Linux Arch:
     ```bash
-    pyw -3.10 main.py
+    sudo pacman -S pyside6 python-mutagen python-discogs-client python-pylast
+    ```
+4.  Open `config.ini.template` with a text editor and fill in your [Last.fm API keys](https://www.last.fm/api/account/create), your [Discogs token](https://www.discogs.com/settings/developers) and your Last.fm login and password. Remove "template" from the filename.
+5.  Run the program with terminal:
+    ```bash
+    python main.py
     ```
 
 #### Optional `.bat` file:
